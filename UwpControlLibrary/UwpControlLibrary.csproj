@@ -1,0 +1,28 @@
+<Project Sdk="MSBuild.Sdk.Extras/2.1.2">
+
+  <PropertyGroup>
+    <TargetFrameworks>uap10.0.16299</TargetFrameworks>
+    <Platforms>AnyCPU;x86</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="CustomCalendar.xaml" />
+    <None Remove="MyCustomControl.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Telerik.UI.for.UniversalWindowsPlatform" Version="1.0.1.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Include="CustomCalendar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MyCustomControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+
+</Project>

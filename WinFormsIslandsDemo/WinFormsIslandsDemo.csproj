@@ -14,8 +14,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\UwpControlLibrary\UwpControlLibrary.csproj" />
-    <ProjectReference Include="..\..\UwpXamlIslandHostApp\UwpXamlIslandHostApp.csproj" />
+    <ProjectReference Include="..\UwpControlLibrary\UwpControlLibrary.csproj" />
+    <ProjectReference Include="..\UwpXamlIslandHostApp\UwpXamlIslandHostApp.csproj" />
   </ItemGroup>
 
 </Project>

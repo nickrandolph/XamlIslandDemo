@@ -8,11 +8,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		global.json = global.json
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsIslandsDemo", "WinFormsIslandsDemo\WinFormsIslandsDemo.csproj", "{6310D195-284C-48F5-A2AF-B8F1235E1C69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsIslandsDemo", "WinFormsIslandsDemo\WinFormsIslandsDemo.csproj", "{6310D195-284C-48F5-A2AF-B8F1235E1C69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UwpControlLibrary", "..\UwpControlLibrary\UwpControlLibrary.csproj", "{C937FD1F-9DF6-40C5-AEAC-44A14EBA4B3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UwpControlLibrary", "UwpControlLibrary\UwpControlLibrary.csproj", "{C937FD1F-9DF6-40C5-AEAC-44A14EBA4B3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UwpXamlIslandHostApp", "..\UwpXamlIslandHostApp\UwpXamlIslandHostApp.csproj", "{BCB6C85A-DC88-40F3-A374-836F8774018D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UwpXamlIslandHostApp", "UwpXamlIslandHostApp\UwpXamlIslandHostApp.csproj", "{BCB6C85A-DC88-40F3-A374-836F8774018D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPFIslandsDemo", "WPFIslandsDemo\WPFIslandsDemo.csproj", "{2DD75353-7764-4527-8EDA-6084D930C48D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -95,6 +97,26 @@ Global
 		{BCB6C85A-DC88-40F3-A374-836F8774018D}.Release|x86.ActiveCfg = Release|x86
 		{BCB6C85A-DC88-40F3-A374-836F8774018D}.Release|x86.Build.0 = Release|x86
 		{BCB6C85A-DC88-40F3-A374-836F8774018D}.Release|x86.Deploy.0 = Release|x86
+		{2DD75353-7764-4527-8EDA-6084D930C48D}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{2DD75353-7764-4527-8EDA-6084D930C48D}.Debug|Any CPU.Build.0 = Debug|x86
+		{2DD75353-7764-4527-8EDA-6084D930C48D}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{2DD75353-7764-4527-8EDA-6084D930C48D}.Debug|ARM.Build.0 = Debug|Any CPU
+		{2DD75353-7764-4527-8EDA-6084D930C48D}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{2DD75353-7764-4527-8EDA-6084D930C48D}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{2DD75353-7764-4527-8EDA-6084D930C48D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2DD75353-7764-4527-8EDA-6084D930C48D}.Debug|x64.Build.0 = Debug|Any CPU
+		{2DD75353-7764-4527-8EDA-6084D930C48D}.Debug|x86.ActiveCfg = Debug|x86
+		{2DD75353-7764-4527-8EDA-6084D930C48D}.Debug|x86.Build.0 = Debug|x86
+		{2DD75353-7764-4527-8EDA-6084D930C48D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DD75353-7764-4527-8EDA-6084D930C48D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DD75353-7764-4527-8EDA-6084D930C48D}.Release|ARM.ActiveCfg = Release|Any CPU
+		{2DD75353-7764-4527-8EDA-6084D930C48D}.Release|ARM.Build.0 = Release|Any CPU
+		{2DD75353-7764-4527-8EDA-6084D930C48D}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{2DD75353-7764-4527-8EDA-6084D930C48D}.Release|ARM64.Build.0 = Release|Any CPU
+		{2DD75353-7764-4527-8EDA-6084D930C48D}.Release|x64.ActiveCfg = Release|Any CPU
+		{2DD75353-7764-4527-8EDA-6084D930C48D}.Release|x64.Build.0 = Release|Any CPU
+		{2DD75353-7764-4527-8EDA-6084D930C48D}.Release|x86.ActiveCfg = Release|x86
+		{2DD75353-7764-4527-8EDA-6084D930C48D}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
