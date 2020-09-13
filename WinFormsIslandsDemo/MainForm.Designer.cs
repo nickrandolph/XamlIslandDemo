@@ -39,7 +39,7 @@
             this.btnSimpleButton.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnSimpleButton.Location = new System.Drawing.Point(0, 0);
             this.btnSimpleButton.Name = "btnSimpleButton";
-            this.btnSimpleButton.Size = new System.Drawing.Size(1278, 46);
+            this.btnSimpleButton.Size = new System.Drawing.Size(571, 46);
             this.btnSimpleButton.TabIndex = 0;
             this.btnSimpleButton.Text = "Simple UWP Button";
             this.btnSimpleButton.UseVisualStyleBackColor = true;
@@ -50,7 +50,7 @@
             this.btnCustomControl.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnCustomControl.Location = new System.Drawing.Point(0, 46);
             this.btnCustomControl.Name = "btnCustomControl";
-            this.btnCustomControl.Size = new System.Drawing.Size(1278, 46);
+            this.btnCustomControl.Size = new System.Drawing.Size(571, 46);
             this.btnCustomControl.TabIndex = 1;
             this.btnCustomControl.Text = "Custom Control";
             this.btnCustomControl.UseVisualStyleBackColor = true;
@@ -61,7 +61,7 @@
             this.btnThirdPartyControl.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnThirdPartyControl.Location = new System.Drawing.Point(0, 92);
             this.btnThirdPartyControl.Name = "btnThirdPartyControl";
-            this.btnThirdPartyControl.Size = new System.Drawing.Size(1278, 46);
+            this.btnThirdPartyControl.Size = new System.Drawing.Size(571, 46);
             this.btnThirdPartyControl.TabIndex = 2;
             this.btnThirdPartyControl.Text = "Third Party Control";
             this.btnThirdPartyControl.UseVisualStyleBackColor = true;
@@ -72,7 +72,7 @@
             this.btnThirdPartyControlWithStyle.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnThirdPartyControlWithStyle.Location = new System.Drawing.Point(0, 138);
             this.btnThirdPartyControlWithStyle.Name = "btnThirdPartyControlWithStyle";
-            this.btnThirdPartyControlWithStyle.Size = new System.Drawing.Size(1278, 46);
+            this.btnThirdPartyControlWithStyle.Size = new System.Drawing.Size(571, 46);
             this.btnThirdPartyControlWithStyle.TabIndex = 3;
             this.btnThirdPartyControlWithStyle.Text = "Third Party Control With Style";
             this.btnThirdPartyControlWithStyle.UseVisualStyleBackColor = true;
@@ -82,7 +82,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1278, 1017);
+            this.ClientSize = new System.Drawing.Size(571, 214);
             this.Controls.Add(this.btnThirdPartyControlWithStyle);
             this.Controls.Add(this.btnThirdPartyControl);
             this.Controls.Add(this.btnCustomControl);
