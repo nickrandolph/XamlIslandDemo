@@ -21,22 +21,18 @@ namespace WPFIslandsDemo
         public SimpleButtonWindow()
         {
             InitializeComponent();
-        }
 
-        private void Button_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
-        {
-            MessageBox.Show("Hello World!");
-        }
-
-        private void WindowsXamlHost_Loaded(object sender, RoutedEventArgs e)
-        {
-            var host = sender as WindowsXamlHost;
             var button = new Windows.UI.Xaml.Controls.Button();
             button.HorizontalAlignment = Windows.UI.Xaml.HorizontalAlignment.Stretch;
             button.VerticalAlignment = Windows.UI.Xaml.VerticalAlignment.Stretch;
             button.Content = "Say Something";
             button.Click += Button_Click;
-            host.Child = button;
+            XamlHost.Child = button;
+        }
+
+        private void Button_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
+        {
+            MessageBox.Show("Hello World!");
         }
     }
 }

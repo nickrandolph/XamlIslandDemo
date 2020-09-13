@@ -25,8 +25,6 @@ namespace WPFIslandsDemo
             InitializeComponent();
 
             DataContext = new DataModel();
-
-
         }
 
     }

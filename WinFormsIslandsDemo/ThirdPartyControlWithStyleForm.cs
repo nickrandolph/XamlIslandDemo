@@ -15,21 +15,21 @@ namespace WinFormsIslandsDemo
         {
             InitializeComponent();
 
-
             var myHostControl = new Microsoft.Toolkit.Forms.UI.XamlHost.WindowsXamlHost();
-            myHostControl.Dock = System.Windows.Forms.DockStyle.Fill;
-            myHostControl.Name = "hostUwpButton";
+            myHostControl.Dock = DockStyle.Fill;
+            myHostControl.Name = "uwpHost";
+
             var customControl = new CustomCalendar();
             customControl.HorizontalAlignment = Windows.UI.Xaml.HorizontalAlignment.Stretch;
             customControl.VerticalAlignment = Windows.UI.Xaml.VerticalAlignment.Stretch;
             myHostControl.Child = customControl;
+
             pnlXamlIsland.Controls.Add(myHostControl);
 
             var data = new DataModel();
             customControl.DataContext = data;
             dtpPickDate.DataBindings.Add(new Binding(nameof(DateTimePicker.Value), data, nameof(DataModel.MyDate), true, DataSourceUpdateMode.OnPropertyChanged));
             lblDate.DataBindings.Add(new Binding(nameof(Label.Text), data, nameof(DataModel.DateAsString), true, DataSourceUpdateMode.OnPropertyChanged));
-
         }
     }
 
@@ -61,7 +61,5 @@ namespace WinFormsIslandsDemo
                 DateAsString = myDate.ToString("O");
             }
         }
-
-
     }
 }

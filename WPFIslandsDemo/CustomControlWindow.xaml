@@ -8,8 +8,6 @@
         mc:Ignorable="d"
         Title="CustomControlWindow" Height="450" Width="800">
     <Grid>
-        <xamlhost:WindowsXamlHost InitialTypeName="UwpControlLibrary.MyCustomControl"
-                                  />
-
+        <xamlhost:WindowsXamlHost InitialTypeName="UwpControlLibrary.MyCustomControl" />
     </Grid>
 </Window>

@@ -3,14 +3,15 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:WPFIslandsDemo"
         xmlns:xamlhost="clr-namespace:Microsoft.Toolkit.Wpf.UI.XamlHost;assembly=Microsoft.Toolkit.Wpf.UI.XamlHost"
         mc:Ignorable="d"
-        Title="ThirdPartyControlWithStyleWindow" Height="450" Width="800">
+        Title="ThirdPartyControlWithStyleWindow"
+        Height="450"
+        Width="800">
     <StackPanel>
         <TextBlock Text="Pick as date:" />
         <xamlhost:WindowsXamlHost InitialTypeName="UwpControlLibrary.CustomCalendar" />
         <DatePicker SelectedDate="{Binding MyDate, Mode=TwoWay}" />
         <TextBlock Text="{Binding DateAsString}" />
-    </StackPanel> 
+    </StackPanel>
 </Window>

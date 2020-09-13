@@ -8,17 +8,16 @@ namespace WinFormsIslandsDemo
         {
             InitializeComponent();
 
-
             var myHostControl = new Microsoft.Toolkit.Forms.UI.XamlHost.WindowsXamlHost();
             myHostControl.Dock = System.Windows.Forms.DockStyle.Fill;
             myHostControl.Name = "hostUwpButton";
+
             var uwpButton = new Windows.UI.Xaml.Controls.Button();
-            //var uwpButton = Microsoft.Toolkit.Win32.UI.XamlHost.UWPTypeFactory.CreateXamlContentByType(
-            //    "Windows.UI.Xaml.Controls.Button") as Windows.UI.Xaml.Controls.Button;
             uwpButton.Content = "Say Something!";
             uwpButton.HorizontalAlignment = Windows.UI.Xaml.HorizontalAlignment.Stretch;
             uwpButton.VerticalAlignment = Windows.UI.Xaml.VerticalAlignment.Stretch;
             uwpButton.Click += UwpButton_Click;
+
             myHostControl.Child = uwpButton;
             this.Controls.Add(myHostControl);
         }
